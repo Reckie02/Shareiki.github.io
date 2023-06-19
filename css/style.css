@@ -33,12 +33,12 @@ a:focus {
 .btn.btn-custom {
     padding: 12px 20px;
     text-align: center; 
-   font-size: 16px;
+   font-size: 2vmin;
     font-weight: 500;
     color: #777777;
     border-radius: 0;
     border: 2px solid #43e540;
-    box-shadow: inset 0 0 0 0 #43e540;
+    box-shadow: inset 0 0 0 1 #43e540;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -536,10 +536,10 @@ a:focus {
     background-size: cover;
 }
 
-.page-header h2 {
+ h2 {
     position: relative;
-    color: #43e540;
-    font-size: 60px;
+    color: #20212B;
+    font-size: 3vmin;
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 5px;
@@ -558,7 +558,7 @@ a:focus {
 .page-header a {
     position: relative;
     padding: 0 12px;
-    font-size: 22px;
+    font-size: 21px;
     color: #ffffff;
 }
 
@@ -1071,10 +1071,13 @@ a:focus {
 .team .team-img {
     position: relative;
     overflow: hidden;
+    width: 30vmin;
+    height: 50vmin;
 }
 
 .team .team-img img {
     width: 100%;
+    height: 100%;
     transform: scale(1.1);
     margin-bottom: -15px;
     transition: .3s;
@@ -1169,6 +1172,7 @@ a:focus {
 .testimonial .testimonial-profile img {
     width: 80px;
     margin-bottom: -1px;
+    height: 80px;
 }
 
 .testimonial .testimonial-name {
