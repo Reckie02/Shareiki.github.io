@@ -16,6 +16,9 @@ h5,
 h6 {
     color: #43e540;
 }
+p{
+    font-size: 15px;
+}
 
 a {
     color: #43e540;
@@ -223,11 +226,36 @@ a:focus {
     color: #ffffff;
     background: #F43e540;
 }
+@media (min-width: 3400px){
+    body html{
+        box-sizing: border-box;
 
-@media (min-width: 992px) {
+    }
+    .team .team-img img {
+    width: 250%;
+    height: 100%;
+    transform: scale(1.1);
+    margin-bottom: -15px;
+    transition: .3s;
+    display: flex;
+
+}
+}
+
+@media (min-width: 927px) {
     .top-bar {
         padding: 0 60px;
     }
+    .team .team-img img {
+    width: 170%;
+    height: 100%;
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: ;
+}
+.navbar{
+    width: 100%;
+}
 }
 
 
@@ -494,6 +522,7 @@ a:focus {
         font-size: 15px;
         letter-spacing: 0;
     }
+
 }
 
 @media (max-width: 767.98px) {
@@ -870,21 +899,32 @@ a:focus {
 /********** Causes CSS *********/
 /*******************************/
 .causes {
-    position: relative;
     width: 100%;
     padding: 45px 0;
 }
+
+
 
 .causes .causes-carousel {
     width: calc(100% + 30px);
     margin-left: -15px;
     margin-right: -15px;
+
+}
+
+
+.owl-carousel{
+    display: flex;
+    
+
 }
 
 .causes .causes-item {
     margin: 0 15px;
-    overflow: hidden;
-    background: #f3f6ff;
+    background: #f3f6ff; 
+    height: 650px; 
+
+    
 }
 
 .causes .causes-img {
@@ -926,7 +966,7 @@ a:focus {
     position: absolute;
     top: -32px;
     right: 0;
-    height: 23px;
+    height: 22px;
     display: inline-block;
     padding: 2px 6px;
     background: #43e540;
@@ -959,33 +999,40 @@ a:focus {
 }
 
 .causes .causes-text h3 {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 700;
 }
 
 .causes .causes-text p {
     margin: 0;
+    font-size: 15px;
 }
 
 .causes .causes-btn {
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    left: 30%;
+
 }
 
 .causes .causes-btn .btn {
     padding: 10px 0;
-    width: 50%;
+    width: 100px;
+    justify-items: space-between;
 }
 
 .causes .causes-btn .btn:last-child {
     color: #20212B;
     background: #43e540;
+
 }
 
 .causes .causes-btn .btn:last-child:hover {
     color: #ffffff;
 }
+
 
 
 
@@ -1048,7 +1095,7 @@ a:focus {
 
 .facts .facts-text p {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     margin: 0;
 }
@@ -1060,7 +1107,7 @@ a:focus {
 .team {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+/*    padding: 45px 0 ;*/
 }
 
 .team .team-item {
@@ -1070,13 +1117,12 @@ a:focus {
 
 .team .team-img {
     position: relative;
-    overflow: hidden;
-    width: 30vmin;
-    height: 50vmin;
+    width: 18vmin;
+    height: 40vmin;
 }
 
 .team .team-img img {
-    width: 100%;
+    width: 170%;
     height: 100%;
     transform: scale(1.1);
     margin-bottom: -15px;
@@ -1084,7 +1130,7 @@ a:focus {
 }
 
 .team .team-item:hover img {
-    margin: -15px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 .team .team-text {
@@ -1241,26 +1287,29 @@ a:focus {
 }
 
 .volunteer .volunteer-content .section-header h2 {
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .volunteer .volunteer-text p {
-    color: #ffffff;
+    color: whitesmoke;
     font-size: 18px;
 }
 
 .volunteer .volunteer-form {
     padding: 90px 30px;
-    background: #43e540;
+    background: #55f232;
+    opacity: 0.7;
+    
 }
 
 .volunteer .volunteer-form .control-group {
     margin-bottom: 15px;
+  
 }
 
 .volunteer .volunteer-form .form-control {
     height: 60px;
-    color: #ffffff;
+    color: black;
     padding: 0 15px;
     border-radius: 0;
     border: 1px solid #ffffff;
@@ -1371,7 +1420,7 @@ a:focus {
 }
 
 .event .event-text h3 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -1381,8 +1430,10 @@ a:focus {
 }
 
 .event .btn.btn-custom {
-    margin-top: 20px;
-    padding: 8px 30px;
+   margin-top: 20px;
+    padding: 8px auto;
+    margin:  10% 30%;
+    
 }
 
 @media (max-width: 575.98px) {
@@ -1416,6 +1467,23 @@ a:focus {
     .event .event-text::after {
         display: none;
     }
+
+    .team{
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .team .team-img img {
+        align-items: center;
+    width: 500px;
+    height: 500px;
+    transform: scale(1.1);
+    transition: .3s;
+    margin-bottom: 50px;
+    display: relative;
+    justify-content: space-between;
+}
+
 }
 
 
@@ -1425,14 +1493,15 @@ a:focus {
 /*******************************/
 .blog {
     position: relative;
-    width: 100%;
+/*    width: 100%;*/
     padding: 45px 0 15px 0;
 }
 
 .blog .blog-item {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     background: #f3f6ff;
+    background-height:70vmin;
 }
 
 .blog .blog-img {
@@ -1445,6 +1514,7 @@ a:focus {
 
 .blog .blog-text {
     padding: 30px 30px 15px 30px;
+    height: 300px;
 }
 
 .blog .blog-text h3 {
