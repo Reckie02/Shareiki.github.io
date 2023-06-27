@@ -145,6 +145,10 @@ a:focus {
 .back-to-top:hover i {
     color: whitesmoke;
 }
+.footer{
+    position: absolute;
+    border-bottom: 0px;
+}
 
 
 /**********************************/
