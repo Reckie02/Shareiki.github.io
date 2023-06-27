@@ -1300,17 +1300,17 @@ a:focus {
 }
 
 .volunteer .volunteer-form {
+    text-emphasis-color: whitesmoke;
     color: white;
     padding: 90px 30px;
-    background: #55f232;
-    opacity: 0.7;
+    background: rgba(85, 242, 50, 0.5);
+    opacity: 1;
     text-decoration-color: whitesmoke;
     
 }
 
 .volunteer .volunteer-form p{
     color: white;
-    text-decoration-color: whitesmoke;
 }
 .volunteer .volunteer-form .control-group {
     margin-bottom: 15px;
