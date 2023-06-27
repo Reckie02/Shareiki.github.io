@@ -2,8 +2,6 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #777777;
-    font-weight: 500;
     background: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
@@ -45,7 +43,7 @@ a:focus {
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
-     
+
 }
 
 .btn.btn-custom:hover {
@@ -1302,12 +1300,18 @@ a:focus {
 }
 
 .volunteer .volunteer-form {
+    color: white;
     padding: 90px 30px;
     background: #55f232;
     opacity: 0.7;
+    text-decoration-color: whitesmoke;
     
 }
 
+.volunteer .volunteer-form p{
+    color: white;
+    text-decoration-color: whitesmoke;
+}
 .volunteer .volunteer-form .control-group {
     margin-bottom: 15px;
   
@@ -1315,21 +1319,17 @@ a:focus {
 
 .volunteer .volunteer-form .form-control {
     height: 60px;
-    color: black;
+    color: whitesmoke;
+    font-weight: ;
     padding: 0 15px;
     border-radius: 0;
     border: 1px solid #ffffff;
     background: transparent;
 }
 
-.volunteer .volunteer-form textarea.form-control {
-    height: 120px;
-    padding: 15px;
-}
-
-.volunteer .volunteer-form .form-control::placeholder {
-    color: #ffffff;
-    opacity: 1;
+.volunteer .volunteer-form .form-control {
+    color: whitesmoke;
+    opacity: 0.8;
 }
 
 .volunteer .volunteer-form .form-control:-ms-input-placeholder,
