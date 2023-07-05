@@ -294,6 +294,11 @@ a:focus {
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+.navbar .logo{
+    height: 30vmin;
+    width: 30vmin;
+    align-items: center;
+}
 
 .navbar .navbar-brand img {
     max-width: 100%;
@@ -1666,6 +1671,9 @@ a:focus {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+#contact-message{
+    ro
 }
 
 
