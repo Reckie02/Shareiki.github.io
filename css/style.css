@@ -229,10 +229,10 @@ a:focus {
     margin: 0px auto;
 }
 .team .container .team-img img{
-    width: 250%;
+    width: 400px;
     display: flex;
     padding-bottom: 100px;
-    height: 120%;
+    height: 400px;
     justify-items: space-between;
 }
 @media (min-width: 3400px){
@@ -295,8 +295,8 @@ a:focus {
     text-transform: uppercase;
 }
 .navbar .logo{
-    height: 30vmin;
-    width: 30vmin;
+    height: 10vmin;
+    width: 10vmin;
     align-items: center;
 }
 
@@ -1138,12 +1138,12 @@ a:focus {
     position: relative;
     width: 20vmin;
     height: 40vmin;
+    justify-content: space-between;
 }
 
 .team .team-img img {
     height: 100%;
-    transform: scale(1.1);
-    margin-bottom: -15px;
+   
     transition: .3s;
 }
 
@@ -1153,7 +1153,7 @@ a:focus {
 
 .team .team-text {
     position: absolute;
-    width: calc(100% - 10px);
+    width: 100%;
     height: 96px;
     bottom: 0;
     left: 10px;
